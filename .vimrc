@@ -41,15 +41,6 @@ if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 
-let g:airline_symbols.linenr = ''
-
-" air-line
-let g:airline_powerline_fonts = 1
-
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
-
 " unicode symbols
 let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
